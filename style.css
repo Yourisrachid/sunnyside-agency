@@ -1,0 +1,45 @@
+html {
+  background-color: #3ebfff;
+  width: 1440px;
+}
+
+.containerhead {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.containerhead p1 {
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  color: white;
+  font-family: Barlow;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.title h {
+  position: absolute;
+  margin-top: 200Px;
+  color: hsl(0, 0%, 100%);
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  font-family: fraunces;
+  font-size: 60px;
+  font-weight: 900;
+}
+.title img {
+  width: 1440px;
+  height: 100%;
+}
+
+.firstblock {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: repeat(3, 540px);
+}/*# sourceMappingURL=style.css.map */
