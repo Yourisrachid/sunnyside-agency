@@ -163,12 +163,32 @@ html {
 
 .lastbox {
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: center;
   padding: 20%;
   background-color: hsl(0, 0%, 100%);
+  gap: 25%;
 }
 .lastbox h3 {
-  justify-items: center;
-  align-items: flex-start;
   position: absolute;
+  justify-self: center;
+  align-self: self-start;
+  margin-top: -10%;
+  color: hsl(210, 4%, 67%);
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-family: fraunces;
+  font-weight: 900;
+}
+.lastbox .first img {
+  border-radius: 50%;
+  width: 65%;
+}
+.lastbox .second img {
+  border-radius: 50%;
+  width: 65%;
+}
+.lastbox .third img {
+  border-radius: 50%;
+  width: 65%;
 }/*# sourceMappingURL=style.css.map */

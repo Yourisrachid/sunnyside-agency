@@ -246,13 +246,45 @@ html {
 
 .lastbox {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: center;
     padding: 20%;
     background-color: $white;
+    gap: 25%;
 
     h3 {
-        justify-items: center ;
-        align-items: flex-start;
         position: absolute;
+        justify-self: center;
+        align-self: self-start;
+        margin-top: -10%;
+        color:$grayblue;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+
+        font: {
+            family: fraunces;
+            weight: 900;
+        }
+    }
+
+    .first {
+        img {
+            border-radius: 50%;
+            width: 65%;
+        }
+    }
+
+    .second {
+        img {
+            border-radius: 50%;
+            width: 65%;
+        }
+    }
+
+    .third {
+        img {
+            border-radius: 50%;
+            width: 65%;
+        }
     }
 }
