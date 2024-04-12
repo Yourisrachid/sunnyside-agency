@@ -110,6 +110,11 @@ html {
                 border:none;
                 cursor: pointer;
                 color: $darkdesblue;
+                text-decoration-line: underline;
+                text-decoration-thickness: 0.4rem;
+                text-decoration-color: rgba(254, 121, 103, 0.4);
+                text-underline-offset: -5px;
+                text-decoration-skip-ink: none;
 
                 font: {
                     family: fraunces;
@@ -123,13 +128,6 @@ html {
         }
     }
     
-    .item2 {
-        background-color: $yellow;
-    }
-
-    .item3 {
-        background-color: $red;
-    }
 
     .item4 {
         background-color: $white;
@@ -163,6 +161,11 @@ html {
                 border:none;
                 cursor: pointer;
                 color: $darkdesblue;
+                text-decoration-line: underline;
+                text-decoration-thickness: 0.4rem;
+                text-decoration-color: rgba(254, 121, 103, 0.4);
+                text-underline-offset: -5px;
+                text-decoration-skip-ink: none;
 
                 font: {
                     family: fraunces;
@@ -170,16 +173,74 @@ html {
                     size: 22px;
                 }
             }
-    }
+        }
     }
 
     .item5 {
-        background-color: $grayblue;
+
+    background-image: url(/images/photos/image-graphic-design.jpg);
+
+    .text2 {
+        margin-top: 50%;
+        margin-bottom: 5%;
+        margin-left: 25%;
+        margin-right:25%;
+        color: $darkcyan;
+
+        h2 {
+            font: {
+                family: fraunces;
+                weight: 900;
+            }
+        }
+
+        p2 {
+
+            word-spacing: 2px;
+            line-height: 1.5;
+
+            font: {
+                family: Barlow;
+                weight: 600;
+            }
+        }
+    }
+
+        
     }
 
     .item6 {
-        background-color: $darkmodcyan;
+        
+    background-image: url(/images/photos/image-photography.jpg);
+
+        .text2 {
+            margin-top: 50%;
+            margin-bottom: 5%;
+            margin-left: 25%;
+            margin-right:25%;
+            color: $darkblue;
+
+            h2 {
+                font: {
+                    family: fraunces;
+                    weight: 900;
+                }
+            }
+
+            p2 {
+
+                word-spacing: 2px;
+                line-height: 1.5;
+
+                font: {
+                    family: Barlow;
+                    weight: 600;
+                }
+            }
+        }
+        
     }
     
 
 }
+

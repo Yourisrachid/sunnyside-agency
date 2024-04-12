@@ -75,15 +75,15 @@ html {
   border: none;
   cursor: pointer;
   color: hsl(212, 27%, 19%);
+  text-decoration-line: underline;
+  text-decoration-thickness: 0.4rem;
+  text-decoration-color: rgba(254, 121, 103, 0.4);
+  text-underline-offset: -5px;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
   font-family: fraunces;
   font-weight: 600;
   font-size: 22px;
-}
-.firstgrid .item2 {
-  background-color: hsl(51, 100%, 49%);
-}
-.firstgrid .item3 {
-  background-color: hsl(7, 99%, 70%);
 }
 .firstgrid .item4 {
   background-color: hsl(0, 0%, 100%);
@@ -110,13 +110,53 @@ html {
   border: none;
   cursor: pointer;
   color: hsl(212, 27%, 19%);
+  text-decoration-line: underline;
+  text-decoration-thickness: 0.4rem;
+  text-decoration-color: rgba(254, 121, 103, 0.4);
+  text-underline-offset: -5px;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
   font-family: fraunces;
   font-weight: 600;
   font-size: 22px;
 }
 .firstgrid .item5 {
-  background-color: hsl(210, 4%, 67%);
+  background-image: url(/images/photos/image-graphic-design.jpg);
+}
+.firstgrid .item5 .text2 {
+  margin-top: 50%;
+  margin-bottom: 5%;
+  margin-left: 25%;
+  margin-right: 25%;
+  color: hsl(167, 40%, 24%);
+}
+.firstgrid .item5 .text2 h2 {
+  font-family: fraunces;
+  font-weight: 900;
+}
+.firstgrid .item5 .text2 p2 {
+  word-spacing: 2px;
+  line-height: 1.5;
+  font-family: Barlow;
+  font-weight: 600;
 }
 .firstgrid .item6 {
-  background-color: hsl(168, 34%, 41%);
+  background-image: url(/images/photos/image-photography.jpg);
+}
+.firstgrid .item6 .text2 {
+  margin-top: 50%;
+  margin-bottom: 5%;
+  margin-left: 25%;
+  margin-right: 25%;
+  color: hsl(198, 62%, 26%);
+}
+.firstgrid .item6 .text2 h2 {
+  font-family: fraunces;
+  font-weight: 900;
+}
+.firstgrid .item6 .text2 p2 {
+  word-spacing: 2px;
+  line-height: 1.5;
+  font-family: Barlow;
+  font-weight: 600;
 }/*# sourceMappingURL=style.css.map */
