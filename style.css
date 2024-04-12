@@ -1,6 +1,11 @@
+body {
+  margin: 0;
+}
+
 html {
   background-color: #3ebfff;
-  width: 1440px;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 .containerhead {
@@ -12,6 +17,7 @@ html {
 .containerhead p1 {
   margin-left: 2.5%;
   margin-right: 2.5%;
+  margin-top: 3%;
   color: white;
   font-family: Barlow;
   font-size: 18px;
@@ -34,12 +40,83 @@ html {
   font-weight: 900;
 }
 .title img {
-  width: 1440px;
+  width: 100%;
   height: 100%;
 }
 
-.firstblock {
+.firstgrid {
   display: grid;
+  width: 100%;
   grid-template-columns: repeat(2, 50%);
   grid-template-rows: repeat(3, 540px);
+}
+.firstgrid .item1 {
+  background-color: hsl(0, 0%, 100%);
+}
+.firstgrid .item1 .text1 {
+  margin-top: 25%;
+  margin-bottom: 10%;
+  margin-left: 25%;
+  margin-right: 25%;
+  color: hsl(212, 27%, 19%);
+}
+.firstgrid .item1 .text1 h1 {
+  font-family: fraunces;
+  font-weight: 900;
+}
+.firstgrid .item1 .text1 p2 {
+  font-family: Barlow;
+  font-weight: 600;
+  font-size: 18px;
+}
+.firstgrid .item1 .text1 button {
+  margin-top: 5%;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: hsl(212, 27%, 19%);
+  font-family: fraunces;
+  font-weight: 600;
+  font-size: 22px;
+}
+.firstgrid .item2 {
+  background-color: hsl(51, 100%, 49%);
+}
+.firstgrid .item3 {
+  background-color: hsl(7, 99%, 70%);
+}
+.firstgrid .item4 {
+  background-color: hsl(0, 0%, 100%);
+}
+.firstgrid .item4 .text1 {
+  margin-top: 25%;
+  margin-bottom: 10%;
+  margin-left: 25%;
+  margin-right: 25%;
+  color: hsl(212, 27%, 19%);
+}
+.firstgrid .item4 .text1 h1 {
+  font-family: fraunces;
+  font-weight: 900;
+}
+.firstgrid .item4 .text1 p2 {
+  font-family: Barlow;
+  font-weight: 600;
+  font-size: 18px;
+}
+.firstgrid .item4 .text1 button {
+  margin-top: 5%;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: hsl(212, 27%, 19%);
+  font-family: fraunces;
+  font-weight: 600;
+  font-size: 22px;
+}
+.firstgrid .item5 {
+  background-color: hsl(210, 4%, 67%);
+}
+.firstgrid .item6 {
+  background-color: hsl(168, 34%, 41%);
 }/*# sourceMappingURL=style.css.map */
