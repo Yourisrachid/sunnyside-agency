@@ -71,6 +71,9 @@ footer {
   margin-right: 80%;
   position: absolute;
 }
+.containerhead .arrow {
+  margin-top: 5%;
+}
 
 .firstgrid {
   display: grid;
