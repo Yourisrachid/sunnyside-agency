@@ -18,11 +18,10 @@ footer {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-image: url(/images/photos/image-header.jpg);
+  background-image: url(images/photos/image-header.jpg);
   background-size: cover;
   white-space: nowrap;
   position: relative;
-  overflow-x: hidden;
 }
 .containerhead .head {
   margin-bottom: 40%;
@@ -84,7 +83,6 @@ footer {
   width: 100%;
   grid-template-columns: repeat(2, 50%);
   grid-template-rows: repeat(3, 540px);
-  overflow-x: hidden;
 }
 .firstgrid .item1 .text1 {
   margin-top: 25%;
@@ -119,11 +117,11 @@ footer {
   font-size: 22px;
 }
 .firstgrid .item2 {
-  background-image: url(/images/photos/image-transform.jpg);
+  background-image: url(images/photos/image-transform.jpg);
   background-size: cover;
 }
 .firstgrid .item3 {
-  background-image: url(/images/photos/image-stand-out.jpg);
+  background-image: url(images/photos/image-stand-out.jpg);
   background-size: cover;
 }
 .firstgrid .item4 .text1 {
@@ -159,7 +157,7 @@ footer {
   font-size: 22px;
 }
 .firstgrid .item5 {
-  background-image: url(/images/photos/image-graphic-design.jpg);
+  background-image: url(images/photos/image-graphic-design.jpg);
   background-size: cover;
 }
 .firstgrid .item5 .text2 {
@@ -180,7 +178,7 @@ footer {
   font-weight: 600;
 }
 .firstgrid .item6 {
-  background-image: url(/images/photos/image-photography.jpg);
+  background-image: url(images/photos/image-photography.jpg);
   background-size: cover;
 }
 .firstgrid .item6 .text2 {
@@ -412,17 +410,17 @@ footer {
     grid-template-rows: repeat(6, 540px);
   }
   .firstgrid .item2 {
-    background-image: url(/images/photos/image-transform.jpg);
+    background-image: url(images/photos/image-transform.jpg);
     background-size: cover;
     background-position-x: center;
   }
   .firstgrid .item3 {
-    background-image: url(/images/photos/image-stand-out.jpg);
+    background-image: url(images/photos/image-stand-out.jpg);
     background-size: cover;
     background-position-x: center;
   }
   .firstgrid .item5 {
-    background-image: url(/images/photos/image-graphic-design.jpg);
+    background-image: url(images/photos/image-graphic-design.jpg);
     background-size: cover;
     background-position-x: center;
   }
@@ -430,7 +428,7 @@ footer {
     margin-bottom: -5%;
   }
   .firstgrid .item6 {
-    background-image: url(/images/photos/image-photography.jpg);
+    background-image: url(images/photos/image-photography.jpg);
     background-size: cover;
     background-position-x: center;
   }
