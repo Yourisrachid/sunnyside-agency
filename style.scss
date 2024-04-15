@@ -23,8 +23,6 @@ body {
 html {
     width: 100%;
     overflow-x: hidden;
-
-
 }
 
 footer {
@@ -41,6 +39,7 @@ footer {
     background-size: cover;
     white-space: nowrap;
     position: relative;
+    overflow-x: hidden;
 
     .head {
         margin-bottom: 40%;
@@ -110,6 +109,10 @@ footer {
     .arrow {
         margin-top: 5%;
     }
+
+    .burger {
+        visibility: hidden;
+    }
 }
 
 .firstgrid {
@@ -117,6 +120,7 @@ footer {
     width: 100%;
     grid-template-columns: repeat(2, 50%);
     grid-template-rows: repeat(3,540px);
+    overflow-x: hidden;
 
     .item1 {
 
@@ -304,6 +308,7 @@ footer {
     padding-top: 15%;
     padding-bottom: 15%;
     gap: 2.5%;
+    overflow-x: hidden;
 
     h3 {
         position: absolute;
@@ -415,6 +420,7 @@ footer {
     display: grid;
     width: 100%;
     grid-auto-flow: column;
+    overflow-x: hidden;
 
     .img1 {
         padding-top: 125%;
@@ -448,6 +454,7 @@ footer {
     position: relative;
     padding-top: 12%;
     padding-bottom: 12%;
+    overflow-x: hidden;
 
     .lastlogo {
         position: absolute;
@@ -515,4 +522,90 @@ footer {
             }
         }
     }
+}
+
+@media all and (max-width: 480px) {
+
+    .containerhead {
+        max-width: 100%;
+        max-height: 650px;
+
+        .head {
+            visibility: hidden;
+        }
+
+        .burger {
+            visibility: visible;
+        }
+
+        .title {
+            h {
+                font: {
+                    size: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .containerhead{
+        background-repeat: no-repeat;
+        background-position-x: center;
+        .head {
+            margin-bottom: 20%;
+            margin-left: 30%;
+        }
+
+        .title {
+            margin-bottom: 35%;
+            margin-left: 12%;
+        }
+
+        .logo {
+            margin-bottom: 120%;
+            margin-right: 60%;
+        }
+
+        .burger {
+            position: absolute;
+            margin-left: 75%;
+            margin-bottom: 120%;
+        }
+    }
+
+    .firstgrid {
+        grid-template-columns: repeat(1, 100%);
+        grid-template-rows: repeat(6,540px);
+
+        .item2 {
+            background-image: url(/images/photos/image-transform.jpg);
+            background-size: cover;
+            background-position-x: center;
+        }
+    
+        .item3 {
+            background-image: url(/images/photos/image-stand-out.jpg);
+            background-size: cover;
+            background-position-x: center;
+        }
+
+        .item5 {
+
+            background-image: url(/images/photos/image-graphic-design.jpg);
+            background-size: cover;
+            background-position-x: center;
+
+            .text2 {
+                margin-bottom: -5%;
+            }
+        }
+
+        .item6 {
+        
+            background-image: url(/images/photos/image-photography.jpg);
+            background-size: cover;
+            background-position-x: center;
+        }
+    }   
 }
