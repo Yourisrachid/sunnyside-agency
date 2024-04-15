@@ -20,7 +20,6 @@ body {
 
 
 html {
-    background-color: $backcolor;
     width: 100%;
     overflow-x: hidden;
 }
@@ -91,7 +90,6 @@ html {
     grid-template-rows: repeat(3,540px);
 
     .item1 {
-        background-color: $white;
 
         .text1 {
             margin-top: 25%;
@@ -139,10 +137,19 @@ html {
 
         }
     }
+
+    .item2 {
+        background-image: url(/images/photos/image-transform.jpg);
+        background-size: cover;
+    }
+
+    .item3 {
+        background-image: url(/images/photos/image-stand-out.jpg);
+        background-size: cover;
+    }
     
 
     .item4 {
-        background-color: $white;
 
         .text1 {
             margin-top: 25%;
@@ -191,6 +198,7 @@ html {
     .item5 {
 
     background-image: url(/images/photos/image-graphic-design.jpg);
+    background-size: cover;
 
     .text2 {
         margin-top: 50%;
@@ -224,6 +232,7 @@ html {
     .item6 {
         
     background-image: url(/images/photos/image-photography.jpg);
+    background-size: cover;
 
         .text2 {
             margin-top: 50%;
@@ -260,43 +269,115 @@ html {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 20%;
-    background-color: $white;
-    gap: 25%;
+    position: relative;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    gap: 2.5%;
 
     h3 {
         position: absolute;
-        justify-self: center;
         align-self: self-start;
-        margin-top: -10%;
+        margin-top: -5%;
         color:$grayblue;
         text-transform: uppercase;
-        letter-spacing: 4px;
+        letter-spacing: 5px;
+        line-height: 24.66px;
+
 
         font: {
-            family: fraunces;
+            family: Fraunces;
             weight: 900;
+            size: 20px;
         }
     }
 
+    a {
+        min-width: 30%;
+        color:$verydarkblue;
+        line-height: 32px;
+        font-family: Barlow;
+        letter-spacing: -0.12857143580913544px;
+
+
+        font: {
+            family: Barlow;
+            weight: 600;
+            size: 18px;
+        }
+    }
+
+    p3 {
+
+        color : $darkdesblue;
+        line-height: 22.19px;
+        letter-spacing: -0.12857143580913544px;
+        
+
+        font: {
+            family:fraunces;
+            weight: 900;
+            size: 18px;
+        }
+    }
+
+    p4 {
+
+        color:$grayblue;
+        line-height: 25px;
+        letter-spacing: -0.10000000149011612px;
+
+
+
+        font: {
+            family:Barlow;
+            weight: 600;
+            size: 14px;
+            }
+
+    }
+
+
     .first {
+        margin-top: 5%;
         img {
+            margin-bottom: 15%;
             border-radius: 50%;
-            width: 65%;
+            width: 20%;
+        }
+
+        .name {
+            line-height: 35px;
+            margin-top: 20%;
         }
     }
 
     .second {
+        margin-top: 5%;
         img {
+            margin-bottom: 15%;
             border-radius: 50%;
-            width: 65%;
+            width: 20%;
+        }
+
+        .name {
+            line-height: 35px;
+            margin-top: 20%;
         }
     }
 
     .third {
+        margin-top: 5%;
         img {
+            margin-bottom: 15%;
             border-radius: 50%;
-            width: 65%;
+            width: 20%;
+        }
+
+        .name {
+            line-height: 35px;
+            margin-top: 20%;
         }
     }
 }

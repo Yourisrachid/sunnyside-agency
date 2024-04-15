@@ -3,7 +3,6 @@ body {
 }
 
 html {
-  background-color: #3ebfff;
   width: 100%;
   overflow-x: hidden;
 }
@@ -60,9 +59,6 @@ html {
   grid-template-columns: repeat(2, 50%);
   grid-template-rows: repeat(3, 540px);
 }
-.firstgrid .item1 {
-  background-color: hsl(0, 0%, 100%);
-}
 .firstgrid .item1 .text1 {
   margin-top: 25%;
   margin-bottom: 10%;
@@ -95,8 +91,13 @@ html {
   font-weight: 600;
   font-size: 22px;
 }
-.firstgrid .item4 {
-  background-color: hsl(0, 0%, 100%);
+.firstgrid .item2 {
+  background-image: url(/images/photos/image-transform.jpg);
+  background-size: cover;
+}
+.firstgrid .item3 {
+  background-image: url(/images/photos/image-stand-out.jpg);
+  background-size: cover;
 }
 .firstgrid .item4 .text1 {
   margin-top: 25%;
@@ -132,6 +133,7 @@ html {
 }
 .firstgrid .item5 {
   background-image: url(/images/photos/image-graphic-design.jpg);
+  background-size: cover;
 }
 .firstgrid .item5 .text2 {
   margin-top: 50%;
@@ -152,6 +154,7 @@ html {
 }
 .firstgrid .item6 {
   background-image: url(/images/photos/image-photography.jpg);
+  background-size: cover;
 }
 .firstgrid .item6 .text2 {
   margin-top: 50%;
@@ -175,30 +178,84 @@ html {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 20%;
-  background-color: hsl(0, 0%, 100%);
-  gap: 25%;
+  position: relative;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 15%;
+  padding-bottom: 15%;
+  gap: 2.5%;
 }
 .lastbox h3 {
   position: absolute;
-  justify-self: center;
   align-self: self-start;
-  margin-top: -10%;
+  margin-top: -5%;
   color: hsl(210, 4%, 67%);
   text-transform: uppercase;
-  letter-spacing: 4px;
+  letter-spacing: 5px;
+  line-height: 24.66px;
+  font-family: Fraunces;
+  font-weight: 900;
+  font-size: 20px;
+}
+.lastbox a {
+  min-width: 30%;
+  color: hsl(213, 9%, 39%);
+  line-height: 32px;
+  font-family: Barlow;
+  letter-spacing: -0.1285714358px;
+  font-family: Barlow;
+  font-weight: 600;
+  font-size: 18px;
+}
+.lastbox p3 {
+  color: hsl(212, 27%, 19%);
+  line-height: 22.19px;
+  letter-spacing: -0.1285714358px;
   font-family: fraunces;
   font-weight: 900;
+  font-size: 18px;
+}
+.lastbox p4 {
+  color: hsl(210, 4%, 67%);
+  line-height: 25px;
+  letter-spacing: -0.1000000015px;
+  font-family: Barlow;
+  font-weight: 600;
+  font-size: 14px;
+}
+.lastbox .first {
+  margin-top: 5%;
 }
 .lastbox .first img {
+  margin-bottom: 15%;
   border-radius: 50%;
-  width: 65%;
+  width: 20%;
+}
+.lastbox .first .name {
+  line-height: 35px;
+  margin-top: 20%;
+}
+.lastbox .second {
+  margin-top: 5%;
 }
 .lastbox .second img {
+  margin-bottom: 15%;
   border-radius: 50%;
-  width: 65%;
+  width: 20%;
+}
+.lastbox .second .name {
+  line-height: 35px;
+  margin-top: 20%;
+}
+.lastbox .third {
+  margin-top: 5%;
 }
 .lastbox .third img {
+  margin-bottom: 15%;
   border-radius: 50%;
-  width: 65%;
+  width: 20%;
+}
+.lastbox .third .name {
+  line-height: 35px;
+  margin-top: 20%;
 }/*# sourceMappingURL=style.css.map */
