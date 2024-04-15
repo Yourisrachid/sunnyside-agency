@@ -3,6 +3,7 @@ $yellow : hsl(51, 100%, 49%);
 $darkcyan : hsl(167, 40%, 24%); //for design text
 $darkblue : hsl(198, 62%, 26%); //photography text;
 $darkmodcyan : hsl(168, 34%, 41%); //footer
+$lightmodcyan : hsla(168, 44%, 70%, 1);
 $darkdesblue : hsl(212, 27%, 19%);
 $verydarkblue : hsl(213, 9%, 39%);
 $darkgrayblue : hsl(232, 10%, 55%);
@@ -24,6 +25,9 @@ html {
     overflow-x: hidden;
 }
 
+footer {
+    background-color: $lightmodcyan;
+}
 .containerhead {
     width : 100%;
     display: flex;
@@ -51,6 +55,25 @@ html {
                 family: Barlow;
                 size: 18px;
                 weight: 600;
+            }
+        }
+
+        button {
+            text-decoration: none;
+            color: $darkdesblue;
+            border-radius: 30px;
+            border-color: $white;
+            width: 40%;
+            height: 50px;
+            background-color: $white;
+            letter-spacing: -0.1071428582072258px;
+            border-style: solid;
+            text-transform: uppercase;
+
+            font: {
+                family: fraunces;
+                weight: 700;
+                size: 15px;
             }
         }
     }
@@ -378,6 +401,112 @@ html {
         .name {
             line-height: 35px;
             margin-top: 20%;
+        }
+    }
+}
+
+.lastgrid {
+    display: grid;
+    width: 100%;
+    grid-auto-flow: column;
+
+    .img1 {
+        padding-top: 125%;
+        width: 100%;
+        background-image: url(images/photos/image-gallery-milkbottles.jpg);
+        background-size: cover;
+    }
+
+    .img2 {
+        background-image: url(images/photos/image-gallery-orange.jpg);
+        background-size: cover;
+    }
+
+    .img3 {
+        background-image: url(images/photos/image-gallery-cone.jpg);
+        background-size: cover;
+    }
+
+    .img4 {
+        background-image: url(images/photos/image-gallery-sugarcubes.jpg);
+        background-size: cover;
+    }
+}
+
+.footerflex {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding-top: 12%;
+    padding-bottom: 12%;
+
+    .lastlogo {
+        position: absolute;
+        width: 13%;
+        filter: invert(36%) sepia(60%) saturate(393%) hue-rotate(118deg) brightness(50%) contrast(89%);
+        margin-top : -15%;
+    }
+
+    nav {
+        line-height: 25px;
+        letter-spacing: -0.12857143580913544px;
+        color: $darkmodcyan;
+        white-space: nowrap;
+        margin-right: 10%;
+
+        ul li{
+            display: inline;
+            padding-right: 30%;
+
+            &:hover {
+                filter: brightness(0) invert(1);
+            }
+          }
+
+        font: {
+            family: Barlow;
+            size: 18px;
+            weight: 600;
+        }
+
+    }
+
+    .socials {
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        width: 15%;
+        margin-top: 15%;
+
+        img {
+            margin-left : 2.5%;
+        }
+
+        .a {
+            &:hover {
+                filter: brightness(0) invert(1);
+            }
+        }
+
+        .b {
+            &:hover {
+                filter: brightness(0) invert(1);
+            }
+        }
+
+        .c {
+            &:hover {
+                filter: brightness(0) invert(1);
+            }
+        }
+
+        .d {
+            &:hover {
+                filter: brightness(0) invert(1);
+            }
         }
     }
 }

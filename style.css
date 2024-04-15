@@ -7,6 +7,10 @@ html {
   overflow-x: hidden;
 }
 
+footer {
+  background-color: hsl(168, 44%, 70%);
+}
+
 .containerhead {
   width: 100%;
   display: flex;
@@ -32,6 +36,21 @@ html {
   font-family: Barlow;
   font-size: 18px;
   font-weight: 600;
+}
+.containerhead .head button {
+  text-decoration: none;
+  color: hsl(212, 27%, 19%);
+  border-radius: 30px;
+  border-color: hsl(0, 0%, 100%);
+  width: 40%;
+  height: 50px;
+  background-color: hsl(0, 0%, 100%);
+  letter-spacing: -0.1071428582px;
+  border-style: solid;
+  text-transform: uppercase;
+  font-family: fraunces;
+  font-weight: 700;
+  font-size: 15px;
 }
 .containerhead .title {
   width: 100%;
@@ -258,4 +277,84 @@ html {
 .lastbox .third .name {
   line-height: 35px;
   margin-top: 20%;
+}
+
+.lastgrid {
+  display: grid;
+  width: 100%;
+  grid-auto-flow: column;
+}
+.lastgrid .img1 {
+  padding-top: 125%;
+  width: 100%;
+  background-image: url(images/photos/image-gallery-milkbottles.jpg);
+  background-size: cover;
+}
+.lastgrid .img2 {
+  background-image: url(images/photos/image-gallery-orange.jpg);
+  background-size: cover;
+}
+.lastgrid .img3 {
+  background-image: url(images/photos/image-gallery-cone.jpg);
+  background-size: cover;
+}
+.lastgrid .img4 {
+  background-image: url(images/photos/image-gallery-sugarcubes.jpg);
+  background-size: cover;
+}
+
+.footerflex {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding-top: 12%;
+  padding-bottom: 12%;
+}
+.footerflex .lastlogo {
+  position: absolute;
+  width: 13%;
+  filter: invert(36%) sepia(60%) saturate(393%) hue-rotate(118deg) brightness(50%) contrast(89%);
+  margin-top: -15%;
+}
+.footerflex nav {
+  line-height: 25px;
+  letter-spacing: -0.1285714358px;
+  color: hsl(168, 34%, 41%);
+  white-space: nowrap;
+  margin-right: 10%;
+  font-family: Barlow;
+  font-size: 18px;
+  font-weight: 600;
+}
+.footerflex nav ul li {
+  display: inline;
+  padding-right: 30%;
+}
+.footerflex nav ul li:hover {
+  filter: brightness(0) invert(1);
+}
+.footerflex .socials {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 15%;
+  margin-top: 15%;
+}
+.footerflex .socials img {
+  margin-left: 2.5%;
+}
+.footerflex .socials .a:hover {
+  filter: brightness(0) invert(1);
+}
+.footerflex .socials .b:hover {
+  filter: brightness(0) invert(1);
+}
+.footerflex .socials .c:hover {
+  filter: brightness(0) invert(1);
+}
+.footerflex .socials .d:hover {
+  filter: brightness(0) invert(1);
 }/*# sourceMappingURL=style.css.map */
