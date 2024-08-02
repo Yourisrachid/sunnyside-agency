@@ -2,7 +2,7 @@
 
 ## What is it ?
 
-The Sunnyside Agency Project was made to practise and show the use of HTML and CSS to recreate a website based on a Figma Layout.
+The Sunnyside Agency Project was made to practice and show the use of HTML and CSS to recreate a website based on a Figma Layout.
 
 The website is responsive and use semantically correct HTML.
 
